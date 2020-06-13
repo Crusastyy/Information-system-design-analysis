@@ -1,0 +1,24 @@
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe.config
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\bin\Debug\quanlicafe.pdb
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.exe
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.pdb
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fmenu_edit.resources
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fedit_item.resources
+C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fadd_item.resources
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe.config
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\bin\Debug\quanlicafe.pdb
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csprojAssemblyReference.cache
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fadd_item.resources
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fmenu_edit.resources
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fedit_item.resources
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Properties.Resources.resources
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.GenerateResource.cache
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.CoreCompileInputs.cache
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.exe
+D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.pdb
