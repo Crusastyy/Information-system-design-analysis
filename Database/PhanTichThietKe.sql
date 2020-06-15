@@ -38,7 +38,8 @@ create table KhachHang
 create table SanPham 
 (
 	MaSP int identity(1,1) not null primary key,
-	LoaiSP nvarchar(50) not null unique,
+	LoaiSP nvarchar(50) not null,
+	HinhSP varchar(max),
 	TenSP nvarchar(50) not null,
 	Size char default('S'),
 	Price int not null
@@ -74,4 +75,46 @@ insert into NhanVien (HoTen, SDT, NgaySinh, GioiTinh, email, ChucDanh) values (N
 insert into TaiKhoanNV values ((select @@IDENTITY ),'18521435','1');
 
 
+/* Vi du them mon vao */
+
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values ('Cafe','Noi Dung trong notepad',N'Cafe Đen','S',15);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values ('Cafe',N'Cafe Đen','M',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values ('Cafe',N'Cafe Đen','L',25);
+
+
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values ('Cafe','Noi dung trong Notepad',N'Cafe Sữa','S',15);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values ('Cafe',N'Cafe Sữa','M',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values ('Cafe',N'Cafe Sữa','L',25);
+
+
+insert into SanPham (LoaiSP, TenSp, Size, Price) values ('Cafe','Noi dung trong notepad',N'Bạc Sỉu','S',15);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values ('Cafe',N'Bạc Sỉu','M',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values ('Cafe',N'Bạc Sỉu','L',25);
+
+/*Trà */
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values (N'Trà','Noi dung trong notepad',N'Lục Trà','S',15);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà',N'Lục Trà','M',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà',N'Lục Trà','L',25);
+
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values (N'Trà','Noi dung trong notepad',N'Trà Đào','S',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà',N'Trà Đào','M',25);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà',N'Trà Đào','L',30);
+
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values (N'Trà','Noi dung trong notepad',N'Trà Vải','S',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà',N'Trà Vải','M',25);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà',N'Trà Vải','L',30);
+
+
+/*Trà Sữa*/
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values (N'Trà Sữa','Noi dung trong notepad',N'Cacao Sữa','S',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà Sữa',N'Cacao Sữa','M',25);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà Sữa',N'Cacao Sữa','L',30);
+
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values (N'Trà Sữa','Noi dung trong notepad',N'Lục Trà Sữa','S',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà Sữa',N'Lục Trà Sữa','M',25);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà Sữa',N'Lục Trà Sữa','L',30);
+
+insert into SanPham (LoaiSP,HinhSP, TenSp, Size, Price) values (N'Trà Sữa','Noi dung trong notepad',N'Trà Sữa Đường Đen','S',20);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà Sữa',N'Trà Sữa Đường Đen','M',25);
+insert into SanPham (LoaiSP, TenSp, Size, Price) values (N'Trà Sữa',N'Trà Sữa Đường Đen','L',30);
 
