@@ -22,3 +22,6 @@ D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\
 D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.CoreCompileInputs.cache
 D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.exe
 D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\Debug\quanlicafe.pdb
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe.config
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.exe
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.pdb

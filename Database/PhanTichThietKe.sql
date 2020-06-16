@@ -20,7 +20,7 @@ create table TaiKhoanNV
 (
 	MaNV		int not null,
 	TaiKhoan	varchar(30) not null unique,
-	MatKhau		varchar(30) not null,
+	MatKhau		varchar(50) not null,
 
 	constraint FK_TaiKhoanNV_NhanVien foreign key (MaNV) references NhanVien(MaNV)
 );
@@ -72,7 +72,7 @@ create table CTHD
 
 /* Này là insert vô bảng Nhân Viên với bảng tài khoản 1 lần */
 insert into NhanVien (HoTen, SDT, NgaySinh, GioiTinh, email, ChucDanh) values (N'Bành Phúc Thịnh', '0767062905', '2000-09-24', 1, '18521435@gm.uit.edu.vn', 1)
-insert into TaiKhoanNV values ((select @@IDENTITY ),'18521435','1');
+insert into TaiKhoanNV values ((select @@IDENTITY ),'18521435','c4ca4238a0b923820dcc509a6f75849b');
 
 
 /* Vi du them mon vao */
