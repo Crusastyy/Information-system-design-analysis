@@ -25,3 +25,13 @@ D:\Đồ án\Phân tích thiết kế HTTT\quanlicafe\quanlicafe\quanlicafe\obj\
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe.config
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.exe
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.pdb
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csprojResolveAssemblyReference.cache
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fadd_item.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fmenu_edit.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fedit_item.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\Project.fTableManager.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\log_in.Login.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Properties.Resources.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.GenerateResource.Cache
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.pdb
