@@ -46,5 +46,10 @@ namespace quanlicafe
         {
             this.Close();
         }
+
+        private void fadd_item_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
