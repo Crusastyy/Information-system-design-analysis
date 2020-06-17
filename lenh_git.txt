@@ -1,0 +1,4 @@
+git clone link
+git add . 
+git commit -m "asd"
+git push origin master
