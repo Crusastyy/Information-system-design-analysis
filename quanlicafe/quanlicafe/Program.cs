@@ -8,6 +8,9 @@ namespace quanlicafe
 {
     static class Program
     {
+
+        static public String connString = @"Data Source=HOME-PC;Initial Catalog=PhanTichThietKe;Integrated Security=True";
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
