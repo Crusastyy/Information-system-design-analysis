@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe.config
 C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe
 C:\Users\ADMIN\source\repos\quanlicafe\quanlicafe\bin\Debug\quanlicafe.pdb
@@ -50,3 +51,20 @@ C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\o
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\log_in.Login.resources
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Properties.Resources.resources
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.GenerateResource.Cache
+=======
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe.config
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.pdb
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fadd_item.resources
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fmenu_edit.resources
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fedit_item.resources
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\Project.fTableManager.resources
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\log_in.Login.resources
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.exe
+C:\Users\ADMIN\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.pdb
+>>>>>>> 0e949382fc1fd1fd3ffad94f49c3e0385b79c5c5
+>>>>>>> 5fab354cf173cb28d2ba8b27dfacc8e3d0eddeaa

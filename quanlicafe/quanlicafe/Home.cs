@@ -21,5 +21,13 @@ namespace quanlicafe
         {
 
         }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            
+           if(Program.chucdanh == true)
+            employee.Hide();
+            
+        }
     }
 }

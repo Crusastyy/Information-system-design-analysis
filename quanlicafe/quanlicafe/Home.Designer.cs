@@ -80,7 +80,7 @@
             this.menu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menu.BackgroundImage")));
             this.menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.menu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.menu.Location = new System.Drawing.Point(774, 246);
+            this.menu.Location = new System.Drawing.Point(774, 243);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(204, 64);
             this.menu.TabIndex = 3;
@@ -139,6 +139,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.ResumeLayout(false);
 
         }

@@ -10,7 +10,7 @@ namespace quanlicafe
     {
 
         static public String connString = @"Data Source=HOME-PC;Initial Catalog=PhanTichThietKe;Integrated Security=True";
-
+        static public bool chucdanh =false;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -19,7 +19,7 @@ namespace quanlicafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmenu_edit());
+            Application.Run(new log_in.Login());
         }
     }
 }

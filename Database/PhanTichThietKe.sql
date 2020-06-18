@@ -111,3 +111,6 @@ insert into SanPham (LoaiSP,HinhSP, TenSp, Price) values (N'Trà Sữa','Noi dun
 
 insert into SanPham (LoaiSP,HinhSP, TenSp, Price) values (N'Trà Sữa','Noi dung trong notepad',N'Trà Sữa Đường Đen',20);
 
+
+
+select chucdanh from NhanVien,TaiKhoanNV where NhanVien.maNV = TaiKhoanNV.manv and TaiKhoan ='18521435'
