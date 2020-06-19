@@ -154,9 +154,9 @@
             this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 10.8F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(87, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 19);
+            this.label2.Size = new System.Drawing.Size(49, 19);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Description:";
+            this.label2.Text = "Type:";
             // 
             // label1
             // 
@@ -179,6 +179,7 @@
             this.Name = "fedit_item";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit Item";
+            this.Load += new System.EventHandler(this.fedit_item_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

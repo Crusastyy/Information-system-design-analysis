@@ -19,7 +19,7 @@ namespace quanlicafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new log_in.Login());
+            Application.Run(new fmenu_edit());
         }
     }
 }

@@ -122,6 +122,7 @@ namespace quanlicafe
                         newP.Y += ct.Size.Height;
                         newP.X = 0;
                     }
+                    editbtn.Name = reader.GetInt32(0).ToString();
                     editbtn.Click += edit_click;
                     tenSP.Name = i.ToString();
                     nd.Name = "panel"+i.ToString();
@@ -155,19 +156,10 @@ namespace quanlicafe
 
         private void edit_click(object sender, EventArgs e)
         {
-            foreach(Control ct in panel5.Controls)
-            {
-                if(ct.Name == "panel1")
-                {
-                    foreach(Label lb in ct.Controls.OfType<Label>())
-                    {
-                        if(lb.Name == "1")
-                        {
-                            lb.Text = "asd";
-                        }
-                    }
-                }
-            }
+            var btn = (PictureBox)sender;
+
+            fedit_item edit_item = new fedit_item(btn.Name);
+            edit_item.ShowDialog();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
