@@ -67,7 +67,7 @@ namespace log_in
 
 
                 Program.chucdanh = reader.GetBoolean(0);//xu ly khi da doc du lieu len
-                this.Hide();
+                this.Close();
                 Home f = new Home();
                 f.Show();
             }

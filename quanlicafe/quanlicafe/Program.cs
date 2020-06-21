@@ -9,7 +9,7 @@ namespace quanlicafe
     static class Program
     {
 
-        static public String connString = @"Data Source=HOME-PC;Initial Catalog=PhanTichThietKe;Integrated Security=True";
+        static public String connString = @"Data Source=LAPTOP-BOACL9PB;Initial Catalog=cafe;Integrated Security=True";
         static public bool chucdanh =false;
         /// <summary>
         /// The main entry point for the application.
