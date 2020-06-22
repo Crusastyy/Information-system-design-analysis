@@ -292,9 +292,9 @@
             this.label8.ForeColor = System.Drawing.Color.Teal;
             this.label8.Location = new System.Drawing.Point(121, 28);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(205, 61);
+            this.label8.Size = new System.Drawing.Size(240, 61);
             this.label8.TabIndex = 23;
-            this.label8.Text = "COFFE";
+            this.label8.Text = "COFFEE";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
