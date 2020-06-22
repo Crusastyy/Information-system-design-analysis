@@ -10,14 +10,39 @@ using System.Windows.Forms;
 
 namespace quanlicafe
 {
-    public partial class change_pass : Form
+    public partial class c : Form
     {
-        public change_pass()
+        public c()
         {
             InitializeComponent();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void change_pass_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

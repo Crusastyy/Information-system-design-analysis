@@ -21,7 +21,7 @@ namespace quanlicafe
         private void button1_Click(object sender, EventArgs e)
         {
      
-            change_pass f = new change_pass();
+            fprofile f = new fprofile();
             f.ShowDialog();
         }
 
@@ -81,6 +81,11 @@ namespace quanlicafe
         }
 
         private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void homebutton_Click(object sender, EventArgs e)
         {
 
         }
