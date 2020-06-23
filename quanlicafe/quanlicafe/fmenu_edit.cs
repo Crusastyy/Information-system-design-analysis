@@ -164,6 +164,7 @@ namespace quanlicafe
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+
             fedit_item f = new fedit_item();
             f.ShowDialog();
             this.Show();
@@ -171,7 +172,7 @@ namespace quanlicafe
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
+            //Nút tìm kiếm
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -201,7 +202,7 @@ namespace quanlicafe
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-
+            //Nút xóa món
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
@@ -222,6 +223,11 @@ namespace quanlicafe
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //Ô nhập tên món để search
         }
     }
 }

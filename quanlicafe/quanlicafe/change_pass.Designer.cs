@@ -44,7 +44,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(241, 83);
+            this.label1.Location = new System.Drawing.Point(230, 83);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 20);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(241, 132);
+            this.label2.Location = new System.Drawing.Point(230, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 20);
             this.label2.TabIndex = 1;
@@ -68,7 +68,7 @@
             this.current_pass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.current_pass.Font = new System.Drawing.Font("Arial", 12F);
             this.current_pass.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.current_pass.Location = new System.Drawing.Point(422, 86);
+            this.current_pass.Location = new System.Drawing.Point(440, 86);
             this.current_pass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.current_pass.Name = "current_pass";
             this.current_pass.PasswordChar = '*';
@@ -80,7 +80,7 @@
             // 
             this.new_pass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.new_pass.Font = new System.Drawing.Font("Arial", 12F);
-            this.new_pass.Location = new System.Drawing.Point(422, 132);
+            this.new_pass.Location = new System.Drawing.Point(440, 132);
             this.new_pass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.new_pass.Name = "new_pass";
             this.new_pass.PasswordChar = '*';
@@ -126,23 +126,24 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(241, 186);
+            this.label3.Location = new System.Drawing.Point(230, 186);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 20);
+            this.label3.Size = new System.Drawing.Size(191, 20);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Confirm Password:";
+            this.label3.Text = "Confirm New Password:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // confirm_pass
             // 
             this.confirm_pass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.confirm_pass.Font = new System.Drawing.Font("Arial", 12F);
-            this.confirm_pass.Location = new System.Drawing.Point(422, 186);
+            this.confirm_pass.Location = new System.Drawing.Point(440, 186);
             this.confirm_pass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.confirm_pass.Name = "confirm_pass";
             this.confirm_pass.PasswordChar = '*';
             this.confirm_pass.Size = new System.Drawing.Size(178, 19);
             this.confirm_pass.TabIndex = 7;
+            this.confirm_pass.TextChanged += new System.EventHandler(this.confirm_pass_TextChanged);
             // 
             // c
             // 

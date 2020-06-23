@@ -32,27 +32,27 @@ namespace quanlicafe
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            //Tên món
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+            //Loại
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //Nút chọn ảnh
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-
+            //Giá
         }
 
         private void SAVE_Click(object sender, EventArgs e)
         {
-
+            //Nút lưu thay đổi
         }
 
         private void fedit_item_Load(object sender, EventArgs e)

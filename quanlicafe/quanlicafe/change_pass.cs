@@ -19,7 +19,7 @@ namespace quanlicafe
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            //Chỗ này nhập pass mới
         }
 
         private void change_pass_Load(object sender, EventArgs e)
@@ -29,7 +29,7 @@ namespace quanlicafe
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            //Chỗ này nhập Pass cũ
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,6 +45,11 @@ namespace quanlicafe
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void confirm_pass_TextChanged(object sender, EventArgs e)
+        {
+            //Chỗ này confirm pass mới
         }
     }
 }

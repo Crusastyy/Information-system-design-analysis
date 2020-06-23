@@ -22,7 +22,7 @@ namespace log_in
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            //Cai nay la ô nhập username
         }
 
         private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
@@ -47,6 +47,7 @@ namespace log_in
        
         private void button1_Click(object sender, EventArgs e)
         {
+            //Nút Log in
             String matkhau = password.Text;
             string hash;
             using (MD5 md5Hash = MD5.Create())
@@ -84,7 +85,7 @@ namespace log_in
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            //Ô nhập password
         }
 
         static string GetMd5Hash(MD5 md5Hash, string input)
