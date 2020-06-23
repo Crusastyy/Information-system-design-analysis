@@ -148,6 +148,7 @@
             this.employee.TabIndex = 10;
             this.employee.Text = "Employee";
             this.employee.UseVisualStyleBackColor = false;
+            this.employee.Click += new System.EventHandler(this.employee_Click);
             // 
             // label3
             // 

@@ -52,7 +52,7 @@ namespace quanlicafe
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //Cai nay la nut Report
+            //Nút Report
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -82,14 +82,19 @@ namespace quanlicafe
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //Cai nay la nut Menu
+            //Nút quản lý Menu
         }
 
         private void homebutton_Click(object sender, EventArgs e)
         {
-            //Cai nay la nut Payment
+            //Nút tính tiền
             Project.fTableManager f = new Project.fTableManager();
             f.ShowDialog();
+        }
+
+        private void employee_Click(object sender, EventArgs e)
+        {
+            //Nút quản lý nhân viên
         }
     }
 }
