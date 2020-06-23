@@ -23,16 +23,17 @@ namespace quanlicafe
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            //Tên món
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+            //Mô tả
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Filter = "Pictures files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png)|*.jpg; *.jpeg; *.jpe; *.jfif; *.png|All files (*.*)|*.*";
             openFile.FilterIndex = 1;
@@ -63,15 +64,19 @@ namespace quanlicafe
             ms.Write(imgBytes, 0, imgBytes.Length);
             Image image = Image.FromStream(ms, true);
             return image;
+=======
+            //Nút chọn ảnh
+>>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-
+            //Giá
         }
 
         private void SAVE_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (checkhinhsp == 1)
             {
                 warningHinh.Show();
@@ -149,6 +154,9 @@ namespace quanlicafe
                     connection.Close();
                 }
             }
+=======
+            //Nút thêm món
+>>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
         }
 
         private void button2_Click(object sender, EventArgs e)

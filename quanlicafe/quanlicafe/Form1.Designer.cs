@@ -61,27 +61,28 @@
             this.panel1.Controls.Add(this.lsvBill);
             this.panel1.Location = new System.Drawing.Point(12, 92);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(776, 285);
+            this.panel1.Size = new System.Drawing.Size(847, 285);
             this.panel1.TabIndex = 0;
             // 
             // lsvBill
             // 
             this.lsvBill.HideSelection = false;
-            this.lsvBill.Location = new System.Drawing.Point(0, 0);
+            this.lsvBill.Location = new System.Drawing.Point(-106, -3);
             this.lsvBill.Name = "lsvBill";
-            this.lsvBill.Size = new System.Drawing.Size(776, 285);
+            this.lsvBill.Size = new System.Drawing.Size(950, 285);
             this.lsvBill.TabIndex = 0;
             this.lsvBill.UseCompatibleStateImageBehavior = false;
             this.lsvBill.SelectedIndexChanged += new System.EventHandler(this.lsvBill_SelectedIndexChanged);
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.adminToolStripMenuItem,
             this.thôngTinTàiKhoảnToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(871, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -97,20 +98,20 @@
             this.thôngTinCáNhânToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem});
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(123, 20);
-            this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Account information";
             // 
             // thôngTinCáNhânToolStripMenuItem
             // 
             this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
-            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
+            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.thôngTinCáNhânToolStripMenuItem.Text = "Profile";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.đăngXuấtToolStripMenuItem.Text = "Log out";
             // 
             // panel4
             // 
@@ -123,22 +124,22 @@
             this.panel4.Controls.Add(this.cbCategory);
             this.panel4.Location = new System.Drawing.Point(12, 27);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(776, 59);
+            this.panel4.Size = new System.Drawing.Size(847, 59);
             this.panel4.TabIndex = 4;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // lbDrinkCount
             // 
             this.lbDrinkCount.AutoSize = true;
-            this.lbDrinkCount.Location = new System.Drawing.Point(641, 10);
+            this.lbDrinkCount.Location = new System.Drawing.Point(706, 10);
             this.lbDrinkCount.Name = "lbDrinkCount";
-            this.lbDrinkCount.Size = new System.Drawing.Size(52, 13);
+            this.lbDrinkCount.Size = new System.Drawing.Size(46, 13);
             this.lbDrinkCount.TabIndex = 6;
-            this.lbDrinkCount.Text = "Số lượng:";
+            this.lbDrinkCount.Text = "Amount:";
             // 
             // nmDrinkCount
             // 
-            this.nmDrinkCount.Location = new System.Drawing.Point(644, 26);
+            this.nmDrinkCount.Location = new System.Drawing.Point(709, 26);
             this.nmDrinkCount.Minimum = new decimal(new int[] {
             100,
             0,
@@ -155,11 +156,11 @@
             // 
             // btnAddDrink
             // 
-            this.btnAddDrink.Location = new System.Drawing.Point(523, 3);
+            this.btnAddDrink.Location = new System.Drawing.Point(532, 3);
             this.btnAddDrink.Name = "btnAddDrink";
-            this.btnAddDrink.Size = new System.Drawing.Size(99, 48);
+            this.btnAddDrink.Size = new System.Drawing.Size(143, 48);
             this.btnAddDrink.TabIndex = 4;
-            this.btnAddDrink.Text = "Thêm ";
+            this.btnAddDrink.Text = "Add";
             this.btnAddDrink.UseVisualStyleBackColor = true;
             this.btnAddDrink.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -168,9 +169,9 @@
             this.lbDrink.AutoSize = true;
             this.lbDrink.Location = new System.Drawing.Point(7, 33);
             this.lbDrink.Name = "lbDrink";
-            this.lbDrink.Size = new System.Drawing.Size(56, 13);
+            this.lbDrink.Size = new System.Drawing.Size(38, 13);
             this.lbDrink.TabIndex = 3;
-            this.lbDrink.Text = "Tên nước:";
+            this.lbDrink.Text = "Name:";
             this.lbDrink.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // lbCategory
@@ -178,9 +179,9 @@
             this.lbCategory.AutoSize = true;
             this.lbCategory.Location = new System.Drawing.Point(9, 6);
             this.lbCategory.Name = "lbCategory";
-            this.lbCategory.Size = new System.Drawing.Size(57, 13);
+            this.lbCategory.Size = new System.Drawing.Size(52, 13);
             this.lbCategory.TabIndex = 2;
-            this.lbCategory.Text = "Loại nước:";
+            this.lbCategory.Text = "Category:";
             this.lbCategory.Click += new System.EventHandler(this.lbCategory_Click);
             // 
             // cbDrink
@@ -208,14 +209,14 @@
             this.panel2.Controls.Add(this.btnCheckout);
             this.panel2.Location = new System.Drawing.Point(12, 383);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(776, 55);
+            this.panel2.Size = new System.Drawing.Size(844, 55);
             this.panel2.TabIndex = 5;
             // 
             // nmDiscount
             // 
-            this.nmDiscount.Location = new System.Drawing.Point(0, 31);
+            this.nmDiscount.Location = new System.Drawing.Point(4, 31);
             this.nmDiscount.Name = "nmDiscount";
-            this.nmDiscount.Size = new System.Drawing.Size(183, 20);
+            this.nmDiscount.Size = new System.Drawing.Size(180, 20);
             this.nmDiscount.TabIndex = 7;
             this.nmDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -225,7 +226,7 @@
             this.btnDiscount.Name = "btnDiscount";
             this.btnDiscount.Size = new System.Drawing.Size(180, 23);
             this.btnDiscount.TabIndex = 6;
-            this.btnDiscount.Text = "Giảm giá";
+            this.btnDiscount.Text = "Discount";
             this.btnDiscount.UseVisualStyleBackColor = true;
             this.btnDiscount.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -233,23 +234,25 @@
             // 
             this.btnCheckout.Location = new System.Drawing.Point(189, 3);
             this.btnCheckout.Name = "btnCheckout";
-            this.btnCheckout.Size = new System.Drawing.Size(584, 48);
+            this.btnCheckout.Size = new System.Drawing.Size(652, 48);
             this.btnCheckout.TabIndex = 5;
-            this.btnCheckout.Text = "Thanh toán";
+            this.btnCheckout.Text = "Purchase";
             this.btnCheckout.UseVisualStyleBackColor = true;
             // 
             // fTableManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.ClientSize = new System.Drawing.Size(871, 453);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fTableManager";
-            this.Text = "Phần mềm quản lý quán cafe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Payment";
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

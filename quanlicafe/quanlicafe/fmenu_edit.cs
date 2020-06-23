@@ -175,9 +175,22 @@ namespace quanlicafe
 
         private void form_edit_close(object sender, FormClosedEventArgs e)
         {
+<<<<<<< HEAD
 
             pn.Controls.Clear();
 
+=======
+
+            fedit_item f = new fedit_item();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            //Nút tìm kiếm
+        }
+>>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
 
             SqlConnection connection = new SqlConnection(quanlicafe.Program.connString);
 
@@ -272,11 +285,16 @@ namespace quanlicafe
         
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
             DialogResult dr = MessageBox.Show("Bạn có chắc chắn muốn xóa.", "Confirm", MessageBoxButtons.YesNo);
             if (dr == DialogResult.Yes)
             {
                 SqlConnection connection = new SqlConnection(quanlicafe.Program.connString);
+=======
+            //Nút xóa món
+        }
+>>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
 
                 try
                 {
@@ -322,6 +340,18 @@ namespace quanlicafe
 
         }
 
+<<<<<<< HEAD
        
+=======
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //Ô nhập tên món để search
+        }
+>>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
     }
 }

@@ -22,7 +22,7 @@ namespace log_in
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            //Cai nay la ô nhập username
         }
 
         private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
@@ -47,7 +47,8 @@ namespace log_in
        
         private void button1_Click(object sender, EventArgs e)
         {
-            String matkhau = textBox2.Text;
+            //Nút Log in
+            String matkhau = password.Text;
             string hash;
             using (MD5 md5Hash = MD5.Create())
             
@@ -58,7 +59,7 @@ namespace log_in
             SqlConnection connection = new SqlConnection(Program.connString);
             //connection.Open();
             connection.Open();
-            String sqlQuery = "Select chucdanh from nhanvien,TaiKhoanNV where TaiKhoan ='" + textBox1.Text + "' and MatKhau = '" + hash + "' and taikhoannv.Manv = nhanvien.Manv  " ;
+            String sqlQuery = "Select chucdanh from nhanvien,TaiKhoanNV where TaiKhoan ='" + username.Text + "' and MatKhau = '" + hash + "' and taikhoannv.Manv = nhanvien.Manv  " ;
                 SqlCommand command = new SqlCommand(sqlQuery, connection);
                 SqlDataReader reader = command.ExecuteReader();
                 if (reader.HasRows)//con dong du lieu thi doc tiep
@@ -67,7 +68,7 @@ namespace log_in
 
 
                 Program.chucdanh = reader.GetBoolean(0);//xu ly khi da doc du lieu len
-                this.Hide();
+                this.Close();
                 Home f = new Home();
                 f.Show();
             }
@@ -84,7 +85,7 @@ namespace log_in
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            //Ô nhập password
         }
 
         static string GetMd5Hash(MD5 md5Hash, string input)
