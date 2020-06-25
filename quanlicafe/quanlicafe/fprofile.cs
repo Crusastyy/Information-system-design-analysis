@@ -16,5 +16,11 @@ namespace quanlicafe
         {
             InitializeComponent();
         }
+
+        private void emp_changepass_Click(object sender, EventArgs e)
+        {
+            c f = new c();
+            f.ShowDialog();
+        }
     }
 }
