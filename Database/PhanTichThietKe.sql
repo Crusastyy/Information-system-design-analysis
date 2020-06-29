@@ -121,4 +121,7 @@ declare @gia int;
 SET @gia= (select price from SanPham where TenSP=N'Cafe Đen');
 update SanPham set Price = @gia-5 where TenSP=N'Cafe Đen'
 
+update SanPham set Price = 15 ,TenSP = N'Cafe Đen' where TenSP = N'Cafe Đen'
 select * from SanPham
+
+delete 
