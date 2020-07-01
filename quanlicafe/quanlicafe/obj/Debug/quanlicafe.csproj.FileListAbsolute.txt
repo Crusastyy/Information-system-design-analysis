@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe.config
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.exe
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\quanlicafe.pdb
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.c.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fadd_item.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fmenu_edit.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fedit_item.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\Project.fTableManager.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.fprofile.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Home.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\log_in.Login.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Properties.Resources.resources
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.exe
+C:\Users\user\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.pdb

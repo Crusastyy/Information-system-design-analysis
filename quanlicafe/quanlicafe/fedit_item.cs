@@ -26,7 +26,7 @@ namespace quanlicafe
         {
             id = i;
         }
-        
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -34,21 +34,11 @@ namespace quanlicafe
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-           
-=======
-            //Tên món
-        }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            //Loại
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Filter = "Pictures files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png)|*.jpg; *.jpeg; *.jpe; *.jfif; *.png|All files (*.*)|*.*";
             openFile.FilterIndex = 1;
@@ -61,23 +51,15 @@ namespace quanlicafe
                 checkhinh = true;
                 hinhsp = Convert.ToBase64String(converImgToByte());
             }
-=======
-            //Nút chọn ảnh
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            
-=======
-            //Giá
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
+
         }
 
         private void SAVE_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             if (String.IsNullOrWhiteSpace(textBox1.Text))
             {
                 warningTen.Show();
@@ -87,7 +69,7 @@ namespace quanlicafe
             {
                 warningTen.Hide();
                 checkten = false;
-                    }
+            }
 
             if (comboBox1.SelectedItem == null)
             {
@@ -122,7 +104,7 @@ namespace quanlicafe
                     //Mo ket noi
                     connection.Open();
                     //Chuan bi cau lenh query viet bang SQL
-                    String sqlQuery = "update sanpham set tensp =N'"+textBox1.Text+"', loaisp=N'"+comboBox1.SelectedItem.ToString()+"', price = "+textBox4.Text+", hinhsp = '"+hinhsp+"' where masp ="+id;
+                    String sqlQuery = "update sanpham set tensp =N'" + textBox1.Text + "', loaisp=N'" + comboBox1.SelectedItem.ToString() + "', price = " + textBox4.Text + ", hinhsp = '" + hinhsp + "' where masp =" + id;
                     //Tao mot Sqlcommand de thuc hien cau lenh truy van da chuan bi voi ket noi hien tai
                     SqlCommand command = new SqlCommand(sqlQuery, connection);
 
@@ -151,14 +133,11 @@ namespace quanlicafe
                 }
             }
 
-=======
-            //Nút lưu thay đổi
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void fedit_item_Load(object sender, EventArgs e)
@@ -184,7 +163,7 @@ namespace quanlicafe
                     if (reader.Read() == false) break;
                     comboBox1.Items.Add(reader.GetString(0));
                 }
-                
+
             }
             catch (InvalidOperationException ex)
             {
@@ -209,7 +188,7 @@ namespace quanlicafe
                 //Mo ket noi
                 connection.Open();
                 //Chuan bi cau lenh query viet bang SQL
-                
+
 
                 String sqlQuery = "select * from SanPham where masp=" + id;
                 //Tao mot Sqlcommand de thuc hien cau lenh truy van da chuan bi voi ket noi hien tai
@@ -248,7 +227,7 @@ namespace quanlicafe
                 //Dong ket noi sau khi thao tac ket thuc
                 connection.Close();
             }
-            
+
         }
 
         private byte[] converImgToByte()

@@ -35,7 +35,7 @@ namespace quanlicafe
             add.ShowDialog();
         }
 
-        
+
         private Image ByteToImg(string byteString)
         {
             byte[] imgBytes = Convert.FromBase64String(byteString);
@@ -48,24 +48,24 @@ namespace quanlicafe
         private void Form1_Load(object sender, EventArgs e)
         {
 
-           
-            Point newP = new Point();
-                //for (int i = 0; i < 20; i++)
-                //{
 
-                //    TextBox test = new TextBox();
-                //    foreach (Control ct in panel5.Controls)
-                //    {
-                //        newP = ct.Location;
-                //        newP.Y += ct.Size.Height;
-                //        test.Name = i.ToString();
-                //        test.Text = "Textbox " + i.ToString();
-                //    }
-                //    test.Location = newP;
-                //    panel5.Controls.Add(test);
-                //}
+            Point newP = new Point();
+            //for (int i = 0; i < 20; i++)
+            //{
+
+            //    TextBox test = new TextBox();
+            //    foreach (Control ct in panel5.Controls)
+            //    {
+            //        newP = ct.Location;
+            //        newP.Y += ct.Size.Height;
+            //        test.Name = i.ToString();
+            //        test.Text = "Textbox " + i.ToString();
+            //    }
+            //    test.Location = newP;
+            //    panel5.Controls.Add(test);
+            //}
             //for (int i = 0; i < 12; i++) {
-                
+
             //}
 
 
@@ -83,12 +83,12 @@ namespace quanlicafe
                 SqlDataReader reader = command.ExecuteReader();
                 //Su dung reader de doc tung dong du lieu
                 //va thuc hien thao tac xu ly mong muon voi du lieu doc len
-           
+
                 while (reader.HasRows)//con dong du lieu thi doc tiep
                 {
                     if (reader.Read() == false) return;//doc ko duoc thi return
                                                        //xu ly khi da doc du lieu len
-                 
+
                     Panel nd = new Panel();
                     nd.Size = new Size(850, 80);
                     Label tenSP = new Label();
@@ -104,7 +104,7 @@ namespace quanlicafe
                     price.Size = new Size(62, 16);
                     price.Location = new Point(760, 4);
                     price.Font = new Font("Arial Rounded MT Bold", 10);
-                    price.Text = reader.GetInt32(4).ToString()+ ".000 đ";
+                    price.Text = reader.GetInt32(4).ToString() + ".000 đ";
                     PictureBox hinhSP = new PictureBox();
                     hinhSP.Size = new Size(57, 54);
                     hinhSP.Location = new Point(0, 2);
@@ -175,22 +175,9 @@ namespace quanlicafe
 
         private void form_edit_close(object sender, FormClosedEventArgs e)
         {
-<<<<<<< HEAD
 
             pn.Controls.Clear();
 
-=======
-
-            fedit_item f = new fedit_item();
-            f.ShowDialog();
-            this.Show();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            //Nút tìm kiếm
-        }
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
 
             SqlConnection connection = new SqlConnection(quanlicafe.Program.connString);
 
@@ -199,7 +186,7 @@ namespace quanlicafe
                 //Mo ket noi
                 connection.Open();
                 //Chuan bi cau lenh query viet bang SQL
-                String sqlQuery = "select * from SanPham where masp = "+id;
+                String sqlQuery = "select * from SanPham where masp = " + id;
                 //Tao mot Sqlcommand de thuc hien cau lenh truy van da chuan bi voi ket noi hien tai
                 SqlCommand command = new SqlCommand(sqlQuery, connection);
                 //Thuc hien cau truy van va nhan ve mot doi tuong reader ho tro do du lieu
@@ -210,8 +197,8 @@ namespace quanlicafe
                 while (reader.HasRows)//con dong du lieu thi doc tiep
                 {
                     if (reader.Read() == false) break;//doc ko duoc thi return
-                                                       //xu ly khi da doc du lieu len
-                  
+                                                      //xu ly khi da doc du lieu len
+
                     Panel nd = new Panel();
                     nd.Size = new Size(420, 58);
                     Label tenSP = new Label();
@@ -239,7 +226,7 @@ namespace quanlicafe
                     editbtn.Location = new Point(760, 22);
                     editbtn.Image = quanlicafe.Properties.Resources.pictureBox2;
 
-                    
+
                     editbtn.Name = reader.GetInt32(0).ToString();
                     nd.Click += panel_click;
                     nd.Name = reader.GetInt32(0).ToString();
@@ -249,7 +236,7 @@ namespace quanlicafe
                     pn.Controls.Add(editbtn);
                     pn.Controls.Add(Loaisp);
                     pn.Controls.Add(price);
-                    
+
 
                 }
             }
@@ -282,19 +269,14 @@ namespace quanlicafe
 
         }
 
-        
+
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
 
             DialogResult dr = MessageBox.Show("Bạn có chắc chắn muốn xóa.", "Confirm", MessageBoxButtons.YesNo);
             if (dr == DialogResult.Yes)
             {
                 SqlConnection connection = new SqlConnection(quanlicafe.Program.connString);
-=======
-            //Nút xóa món
-        }
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
 
                 try
                 {
@@ -340,18 +322,6 @@ namespace quanlicafe
 
         }
 
-<<<<<<< HEAD
-       
-=======
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            //Ô nhập tên món để search
-        }
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
     }
 }

@@ -23,17 +23,16 @@ namespace quanlicafe
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //Tên món
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            //Mô tả
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Filter = "Pictures files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png)|*.jpg; *.jpeg; *.jpe; *.jfif; *.png|All files (*.*)|*.*";
             openFile.FilterIndex = 1;
@@ -64,25 +63,22 @@ namespace quanlicafe
             ms.Write(imgBytes, 0, imgBytes.Length);
             Image image = Image.FromStream(ms, true);
             return image;
-=======
-            //Nút chọn ảnh
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            //Giá
+
         }
 
         private void SAVE_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             if (checkhinhsp == 1)
             {
                 warningHinh.Show();
-            
+
             }
-            else {
+            else
+            {
                 warningHinh.Hide();
             }
 
@@ -119,7 +115,7 @@ namespace quanlicafe
                 checkgia = 0;
             }
 
-            if (checkten==0 && checkgia==0 && checkloai==0 && checkhinhsp==0)
+            if (checkten == 0 && checkgia == 0 && checkloai == 0 && checkhinhsp == 0)
             {
                 SqlConnection connection = new SqlConnection(quanlicafe.Program.connString);
 
@@ -128,10 +124,10 @@ namespace quanlicafe
                     //Mo ket noi
                     connection.Open();
                     //Chuan bi cau lenh query viet bang SQL
-                    String sqlQuery = "insert into sanpham (loaisp,hinhsp,tensp,price) values(N'"+comboBox1.SelectedItem.ToString()+"','"+Convert.ToBase64String(converImgToByte())+"',N'"+textBox1.Text+"',"+textBox4.Text+")";
+                    String sqlQuery = "insert into sanpham (loaisp,hinhsp,tensp,price) values(N'" + comboBox1.SelectedItem.ToString() + "','" + Convert.ToBase64String(converImgToByte()) + "',N'" + textBox1.Text + "'," + textBox4.Text + ")";
                     //Tao mot Sqlcommand de thuc hien cau lenh truy van da chuan bi voi ket noi hien tai
                     SqlCommand command = new SqlCommand(sqlQuery, connection);
-                     
+
                     //Thuc hien cau truy van va nhan ve mot doi tuong reader ho tro do du lieu
                     command.ExecuteNonQuery();
                     //Su dung reader de doc tung dong du lieu
@@ -154,9 +150,6 @@ namespace quanlicafe
                     connection.Close();
                 }
             }
-=======
-            //Nút thêm món
->>>>>>> b60e7e3504f71225d58719e62b6d79c5481d8cb2
         }
 
         private void button2_Click(object sender, EventArgs e)
