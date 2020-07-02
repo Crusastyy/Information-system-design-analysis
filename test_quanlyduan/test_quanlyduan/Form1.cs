@@ -29,7 +29,7 @@ namespace test_quanlyduan
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("button 2");
+            MessageBox.Show("button 2 ver 2");
         }
     }
 }
