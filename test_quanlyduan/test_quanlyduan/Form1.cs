@@ -19,7 +19,7 @@ namespace test_quanlyduan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("button 1 ver 2");
+            MessageBox.Show("button 1 ver 2 may A ");
         }
 
         private void Form1_Load(object sender, EventArgs e)
