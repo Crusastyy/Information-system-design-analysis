@@ -18,6 +18,7 @@ namespace quanlicafe
 
         private String id;
         private Panel pn = new Panel();
+
         public fmenu_edit()
         {
             InitializeComponent();

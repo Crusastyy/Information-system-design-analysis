@@ -31,3 +31,6 @@ C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\o
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\log_in.Login.resources
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.Properties.Resources.resources
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.csproj.GenerateResource.Cache
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.thanhtoan.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\itextsharp.dll
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\itextsharp.xml

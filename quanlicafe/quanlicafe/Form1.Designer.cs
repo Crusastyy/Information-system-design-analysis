@@ -28,9 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fTableManager));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lsvBill = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,15 +50,14 @@
             this.cbDrink = new System.Windows.Forms.ComboBox();
             this.cbCategory = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.nmDiscount = new System.Windows.Forms.NumericUpDown();
-            this.btnDiscount = new System.Windows.Forms.Button();
+            this.thanhtien = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnCheckout = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmDrinkCount)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nmDiscount)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -66,13 +70,41 @@
             // 
             // lsvBill
             // 
+            this.lsvBill.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4});
             this.lsvBill.HideSelection = false;
-            this.lsvBill.Location = new System.Drawing.Point(-106, -3);
+            this.lsvBill.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1});
+            this.lsvBill.Location = new System.Drawing.Point(0, 0);
             this.lsvBill.Name = "lsvBill";
-            this.lsvBill.Size = new System.Drawing.Size(950, 285);
+            this.lsvBill.Size = new System.Drawing.Size(847, 285);
             this.lsvBill.TabIndex = 0;
             this.lsvBill.UseCompatibleStateImageBehavior = false;
+            this.lsvBill.View = System.Windows.Forms.View.Details;
             this.lsvBill.SelectedIndexChanged += new System.EventHandler(this.lsvBill_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Tag = "123";
+            this.columnHeader1.Text = "tensp";
+            this.columnHeader1.Width = 250;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "gia";
+            this.columnHeader2.Width = 200;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "soluong";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Tongtien";
+            this.columnHeader4.Width = 200;
             // 
             // menuStrip1
             // 
@@ -85,6 +117,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(871, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked_1);
             // 
             // adminToolStripMenuItem
             // 
@@ -104,13 +137,13 @@
             // thôngTinCáNhânToolStripMenuItem
             // 
             this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
-            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.thôngTinCáNhânToolStripMenuItem.Text = "Profile";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Log out";
             // 
             // panel4
@@ -204,31 +237,34 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.nmDiscount);
-            this.panel2.Controls.Add(this.btnDiscount);
+            this.panel2.Controls.Add(this.thanhtien);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.btnCheckout);
             this.panel2.Location = new System.Drawing.Point(12, 383);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(844, 55);
             this.panel2.TabIndex = 5;
             // 
-            // nmDiscount
+            // thanhtien
             // 
-            this.nmDiscount.Location = new System.Drawing.Point(4, 31);
-            this.nmDiscount.Name = "nmDiscount";
-            this.nmDiscount.Size = new System.Drawing.Size(180, 20);
-            this.nmDiscount.TabIndex = 7;
-            this.nmDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.thanhtien.AutoSize = true;
+            this.thanhtien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thanhtien.Location = new System.Drawing.Point(54, 28);
+            this.thanhtien.Name = "thanhtien";
+            this.thanhtien.Size = new System.Drawing.Size(60, 24);
+            this.thanhtien.TabIndex = 7;
+            this.thanhtien.Text = "label2";
             // 
-            // btnDiscount
+            // label1
             // 
-            this.btnDiscount.Location = new System.Drawing.Point(3, 3);
-            this.btnDiscount.Name = "btnDiscount";
-            this.btnDiscount.Size = new System.Drawing.Size(180, 23);
-            this.btnDiscount.TabIndex = 6;
-            this.btnDiscount.Text = "Discount";
-            this.btnDiscount.UseVisualStyleBackColor = true;
-            this.btnDiscount.Click += new System.EventHandler(this.button1_Click_1);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(33, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(114, 25);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Thành tiền";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnCheckout
             // 
@@ -238,6 +274,7 @@
             this.btnCheckout.TabIndex = 5;
             this.btnCheckout.Text = "Purchase";
             this.btnCheckout.UseVisualStyleBackColor = true;
+            this.btnCheckout.Click += new System.EventHandler(this.btnCheckout_Click);
             // 
             // fTableManager
             // 
@@ -253,6 +290,7 @@
             this.Name = "fTableManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Payment";
+            this.Load += new System.EventHandler(this.fTableManager_Load);
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -260,7 +298,7 @@
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmDrinkCount)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.nmDiscount)).EndInit();
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,8 +323,12 @@
         private System.Windows.Forms.NumericUpDown nmDrinkCount;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnCheckout;
-        private System.Windows.Forms.Button btnDiscount;
-        private System.Windows.Forms.NumericUpDown nmDiscount;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label thanhtien;
     }
 }
 

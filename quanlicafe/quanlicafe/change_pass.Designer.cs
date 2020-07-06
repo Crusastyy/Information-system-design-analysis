@@ -104,6 +104,7 @@
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.BackColorChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // cancel
             // 
@@ -120,6 +121,7 @@
             this.cancel.TabIndex = 5;
             this.cancel.Text = "Cancel";
             this.cancel.UseVisualStyleBackColor = false;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
             // 
             // label3
             // 
@@ -150,7 +152,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(871, 453);
+            this.ClientSize = new System.Drawing.Size(799, 423);
             this.Controls.Add(this.confirm_pass);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cancel);
@@ -162,7 +164,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "c";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Change password";
             this.Load += new System.EventHandler(this.change_pass_Load);
             this.ResumeLayout(false);

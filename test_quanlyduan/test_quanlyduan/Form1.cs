@@ -8,32 +8,60 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace test_quanlyduan
+namespace Project
 {
-    public partial class Form1 : Form
+    public partial class fTableManager : Form
     {
-        public Form1()
+        public fTableManager()
         {
             InitializeComponent();
         }
 
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbCategory_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            MessageBox.Show("button 1 ver 2 may B");
-=======
-            MessageBox.Show("button 1 ver 2 may A ");
->>>>>>> 3f092ade72f612bd4b238c68c522b4e15af92ea0
+
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void cbCategory_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void lsvBill_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("button 2 ver 2");
+
+        }
+
+        private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

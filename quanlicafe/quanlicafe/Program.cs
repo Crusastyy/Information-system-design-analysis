@@ -8,6 +8,7 @@ namespace quanlicafe
 {
     static class Program
     {
+        static public int MaNV;
         static public bool Isedit = false;
         static public String connString = @"Data Source=HOME-PC;Initial Catalog=PhanTichThietKe;Integrated Security=True";
         static public bool chucdanh = false;

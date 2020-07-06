@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fprofile));
-            this.emp_id = new System.Windows.Forms.Label();
             this.emp_name = new System.Windows.Forms.Label();
             this.emp_dob = new System.Windows.Forms.Label();
             this.emp_phone = new System.Windows.Forms.Label();
@@ -38,7 +37,6 @@
             this.emp_position = new System.Windows.Forms.Label();
             this.emp_titile = new System.Windows.Forms.Label();
             this.emp_changepass = new System.Windows.Forms.Button();
-            this.MaNV = new System.Windows.Forms.TextBox();
             this.HoTen = new System.Windows.Forms.TextBox();
             this.SDT = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.TextBox();
@@ -49,17 +47,6 @@
             this.button_ok = new System.Windows.Forms.Button();
             this.button_cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // emp_id
-            // 
-            this.emp_id.AutoSize = true;
-            this.emp_id.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold);
-            this.emp_id.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.emp_id.Location = new System.Drawing.Point(119, 92);
-            this.emp_id.Name = "emp_id";
-            this.emp_id.Size = new System.Drawing.Size(103, 20);
-            this.emp_id.TabIndex = 0;
-            this.emp_id.Text = "Employee ID";
             // 
             // emp_name
             // 
@@ -149,19 +136,12 @@
             this.emp_changepass.UseVisualStyleBackColor = false;
             this.emp_changepass.Click += new System.EventHandler(this.emp_changepass_Click);
             // 
-            // MaNV
-            // 
-            this.MaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.MaNV.Location = new System.Drawing.Point(278, 87);
-            this.MaNV.Name = "MaNV";
-            this.MaNV.Size = new System.Drawing.Size(145, 26);
-            this.MaNV.TabIndex = 9;
-            // 
             // HoTen
             // 
             this.HoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.HoTen.Location = new System.Drawing.Point(278, 134);
             this.HoTen.Name = "HoTen";
+            this.HoTen.ReadOnly = true;
             this.HoTen.Size = new System.Drawing.Size(145, 26);
             this.HoTen.TabIndex = 10;
             // 
@@ -186,6 +166,7 @@
             this.ChucDanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.ChucDanh.Location = new System.Drawing.Point(278, 275);
             this.ChucDanh.Name = "ChucDanh";
+            this.ChucDanh.ReadOnly = true;
             this.ChucDanh.Size = new System.Drawing.Size(145, 26);
             this.ChucDanh.TabIndex = 13;
             // 
@@ -194,6 +175,7 @@
             this.NgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.NgaySinh.Location = new System.Drawing.Point(618, 134);
             this.NgaySinh.Name = "NgaySinh";
+            this.NgaySinh.ReadOnly = true;
             this.NgaySinh.Size = new System.Drawing.Size(145, 26);
             this.NgaySinh.TabIndex = 14;
             // 
@@ -204,7 +186,6 @@
             this.radio_male.Name = "radio_male";
             this.radio_male.Size = new System.Drawing.Size(48, 17);
             this.radio_male.TabIndex = 15;
-            this.radio_male.TabStop = true;
             this.radio_male.Text = "Male";
             this.radio_male.UseVisualStyleBackColor = true;
             // 
@@ -215,7 +196,6 @@
             this.radio_female.Name = "radio_female";
             this.radio_female.Size = new System.Drawing.Size(59, 17);
             this.radio_female.TabIndex = 16;
-            this.radio_female.TabStop = true;
             this.radio_female.Text = "Female";
             this.radio_female.UseVisualStyleBackColor = true;
             // 
@@ -230,6 +210,7 @@
             this.button_ok.TabIndex = 17;
             this.button_ok.Text = "OK";
             this.button_ok.UseVisualStyleBackColor = false;
+            this.button_ok.Click += new System.EventHandler(this.button_ok_Click);
             // 
             // button_cancel
             // 
@@ -242,6 +223,7 @@
             this.button_cancel.TabIndex = 18;
             this.button_cancel.Text = "Cancel";
             this.button_cancel.UseVisualStyleBackColor = false;
+            this.button_cancel.Click += new System.EventHandler(this.button_cancel_Click);
             // 
             // fprofile
             // 
@@ -258,7 +240,6 @@
             this.Controls.Add(this.Email);
             this.Controls.Add(this.SDT);
             this.Controls.Add(this.HoTen);
-            this.Controls.Add(this.MaNV);
             this.Controls.Add(this.emp_changepass);
             this.Controls.Add(this.emp_titile);
             this.Controls.Add(this.emp_position);
@@ -267,18 +248,17 @@
             this.Controls.Add(this.emp_phone);
             this.Controls.Add(this.emp_dob);
             this.Controls.Add(this.emp_name);
-            this.Controls.Add(this.emp_id);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fprofile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Profile";
+            this.Load += new System.EventHandler(this.fprofile_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label emp_id;
         private System.Windows.Forms.Label emp_name;
         private System.Windows.Forms.Label emp_dob;
         private System.Windows.Forms.Label emp_phone;
@@ -287,7 +267,6 @@
         private System.Windows.Forms.Label emp_position;
         private System.Windows.Forms.Label emp_titile;
         private System.Windows.Forms.Button emp_changepass;
-        private System.Windows.Forms.TextBox MaNV;
         private System.Windows.Forms.TextBox HoTen;
         private System.Windows.Forms.TextBox SDT;
         private System.Windows.Forms.TextBox Email;

@@ -1,4 +1,5 @@
-﻿create database PhanTichThietKe
+﻿
+create database PhanTichThietKe
 
 use PhanTichThietKe;
 
@@ -66,11 +67,11 @@ create table HoaDon
 	constraint FK_HoaDon_NhanVien foreign key (MaNV) references NhanVien(MaNV)
 );
 
+
 create table CTHD
 (
 	MaHD int not null,
 	MaSP int not null,
-	Size char not null,
 	SL int not null,
 	Price int not null,
 
@@ -82,6 +83,10 @@ create table CTHD
 insert into NhanVien (HoTen, SDT, NgaySinh, GioiTinh, email, ChucDanh) values (N'Bành Phúc Thịnh', '0767062905', '2000-09-24', 1, '18521435@gm.uit.edu.vn', 1)
 insert into TaiKhoanNV values ((select @@IDENTITY ),'18521435','c4ca4238a0b923820dcc509a6f75849b');
 insert into KhachHang (HoTen, NgaySinh, SDT, GioiTinh) values (N'Bành Phúc Thịnh', '2000-09-24', '0767062905', 1)
+
+insert into NhanVien (HoTen, SDT, NgaySinh, GioiTinh, email, ChucDanh) values (N'Nguyễn Văn A', '0767728905', '2000-02-17', 1, '18521425@gm.uit.edu.vn', 0)
+insert into TaiKhoanNV values ((select @@IDENTITY ),'nguyenvana','c4ca4238a0b923820dcc509a6f75849b');
+insert into KhachHang (HoTen, NgaySinh, SDT, GioiTinh) values (N'Nguyễn Văn A', '2000-02-17', '0767728905', 1)
 
 /* vi du them loai san pham */
 
@@ -124,4 +129,6 @@ update SanPham set Price = @gia-5 where TenSP=N'Cafe Đen'
 update SanPham set Price = 15 ,TenSP = N'Cafe Đen' where TenSP = N'Cafe Đen'
 select * from SanPham
 
-delete 
+select * from KhachHang where hoten = N'Bành Phúc Thịnh'
+
+select top 1 mahd from hoadon order by mahd desc

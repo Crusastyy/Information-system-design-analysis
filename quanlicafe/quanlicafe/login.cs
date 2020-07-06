@@ -18,6 +18,17 @@ namespace log_in
         public Login()
         {
             InitializeComponent();
+            this.AcceptButton = log_in;
+            username.KeyPress += sqlinject;
+            password.KeyPress += sqlinject;
+        }
+
+        private void sqlinject(object sender, KeyPressEventArgs e)
+        {
+            if((e.KeyChar == '"'))
+            {
+                e.Handled = true;
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -25,25 +36,11 @@ namespace log_in
             //Cai nay la ô nhập username
         }
 
-        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
        
         private void button1_Click(object sender, EventArgs e)
         {
@@ -59,18 +56,19 @@ namespace log_in
             SqlConnection connection = new SqlConnection(Program.connString);
             //connection.Open();
             connection.Open();
-            String sqlQuery = "Select chucdanh from nhanvien,TaiKhoanNV where TaiKhoan ='" + username.Text + "' and MatKhau = '" + hash + "' and taikhoannv.Manv = nhanvien.Manv  " ;
+            String sqlQuery = "Select chucdanh, Nhanvien.MaNV from nhanvien,TaiKhoanNV where TaiKhoan ='" + username.Text + "' and MatKhau = '" + hash + "' and taikhoannv.Manv = nhanvien.Manv  " ;
                 SqlCommand command = new SqlCommand(sqlQuery, connection);
                 SqlDataReader reader = command.ExecuteReader();
                 if (reader.HasRows)//con dong du lieu thi doc tiep
                 {
                     if (reader.Read() == false) return;//doc ko duoc thi return
 
-
-                Program.chucdanh = reader.GetBoolean(0);//xu ly khi da doc du lieu len
-                this.Close();
+                Program.MaNV = reader.GetInt32(1);
+                Program.chucdanh = reader.GetBoolean(0);//xu ly khi da doc du lieu 
+                this.Hide();
                 Home f = new Home();
                 f.Show();
+                f.FormClosed += form_close;
             }
             else
             
@@ -78,10 +76,7 @@ namespace log_in
             
         }
 
-        private bool VerifyMd5Hash(MD5 md5Hash, object source, string hash)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -109,5 +104,13 @@ namespace log_in
             return sBuilder.ToString();
         }
 
+        private void form_close(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+            password.Clear();
+        }
+
+       
     }
+    
 }

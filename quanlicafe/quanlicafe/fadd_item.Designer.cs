@@ -247,6 +247,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "fadd_item";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "fadd_item";
             this.Load += new System.EventHandler(this.fadd_item_Load);
             this.panel1.ResumeLayout(false);

@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fedit_item));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.warningGia = new System.Windows.Forms.Label();
+            this.warningHinh = new System.Windows.Forms.Label();
+            this.warningLoai = new System.Windows.Forms.Label();
+            this.warningTen = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -42,10 +46,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.warningTen = new System.Windows.Forms.Label();
-            this.warningLoai = new System.Windows.Forms.Label();
-            this.warningHinh = new System.Windows.Forms.Label();
-            this.warningGia = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -74,6 +74,50 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(576, 319);
             this.panel1.TabIndex = 5;
+            // 
+            // warningGia
+            // 
+            this.warningGia.AutoSize = true;
+            this.warningGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.warningGia.ForeColor = System.Drawing.Color.Red;
+            this.warningGia.Location = new System.Drawing.Point(469, 182);
+            this.warningGia.Name = "warningGia";
+            this.warningGia.Size = new System.Drawing.Size(25, 31);
+            this.warningGia.TabIndex = 17;
+            this.warningGia.Text = "*";
+            // 
+            // warningHinh
+            // 
+            this.warningHinh.AutoSize = true;
+            this.warningHinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.warningHinh.ForeColor = System.Drawing.Color.Red;
+            this.warningHinh.Location = new System.Drawing.Point(496, 139);
+            this.warningHinh.Name = "warningHinh";
+            this.warningHinh.Size = new System.Drawing.Size(25, 31);
+            this.warningHinh.TabIndex = 16;
+            this.warningHinh.Text = "*";
+            // 
+            // warningLoai
+            // 
+            this.warningLoai.AutoSize = true;
+            this.warningLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.warningLoai.ForeColor = System.Drawing.Color.Red;
+            this.warningLoai.Location = new System.Drawing.Point(340, 87);
+            this.warningLoai.Name = "warningLoai";
+            this.warningLoai.Size = new System.Drawing.Size(25, 31);
+            this.warningLoai.TabIndex = 15;
+            this.warningLoai.Text = "*";
+            // 
+            // warningTen
+            // 
+            this.warningTen.AutoSize = true;
+            this.warningTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.warningTen.ForeColor = System.Drawing.Color.Red;
+            this.warningTen.Location = new System.Drawing.Point(469, 42);
+            this.warningTen.Name = "warningTen";
+            this.warningTen.Size = new System.Drawing.Size(25, 31);
+            this.warningTen.TabIndex = 14;
+            this.warningTen.Text = "*";
             // 
             // pictureBox1
             // 
@@ -195,50 +239,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Name:";
             // 
-            // warningTen
-            // 
-            this.warningTen.AutoSize = true;
-            this.warningTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.warningTen.ForeColor = System.Drawing.Color.Red;
-            this.warningTen.Location = new System.Drawing.Point(469, 42);
-            this.warningTen.Name = "warningTen";
-            this.warningTen.Size = new System.Drawing.Size(25, 31);
-            this.warningTen.TabIndex = 14;
-            this.warningTen.Text = "*";
-            // 
-            // warningLoai
-            // 
-            this.warningLoai.AutoSize = true;
-            this.warningLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.warningLoai.ForeColor = System.Drawing.Color.Red;
-            this.warningLoai.Location = new System.Drawing.Point(340, 87);
-            this.warningLoai.Name = "warningLoai";
-            this.warningLoai.Size = new System.Drawing.Size(25, 31);
-            this.warningLoai.TabIndex = 15;
-            this.warningLoai.Text = "*";
-            // 
-            // warningHinh
-            // 
-            this.warningHinh.AutoSize = true;
-            this.warningHinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.warningHinh.ForeColor = System.Drawing.Color.Red;
-            this.warningHinh.Location = new System.Drawing.Point(496, 139);
-            this.warningHinh.Name = "warningHinh";
-            this.warningHinh.Size = new System.Drawing.Size(25, 31);
-            this.warningHinh.TabIndex = 16;
-            this.warningHinh.Text = "*";
-            // 
-            // warningGia
-            // 
-            this.warningGia.AutoSize = true;
-            this.warningGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.warningGia.ForeColor = System.Drawing.Color.Red;
-            this.warningGia.Location = new System.Drawing.Point(469, 182);
-            this.warningGia.Name = "warningGia";
-            this.warningGia.Size = new System.Drawing.Size(25, 31);
-            this.warningGia.TabIndex = 17;
-            this.warningGia.Text = "*";
-            // 
             // fedit_item
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,7 +248,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "fedit_item";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Edit Item";
             this.Load += new System.EventHandler(this.fedit_item_Load);
             this.panel1.ResumeLayout(false);

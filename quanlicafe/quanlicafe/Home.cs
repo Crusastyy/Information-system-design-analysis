@@ -28,16 +28,12 @@ namespace quanlicafe
         private void Home_Load(object sender, EventArgs e)
         {
             
-           if(Program.chucdanh == true)
-            employee.Hide();
-            
+           
         }
 
         private void menu_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            fmenu_edit f = new fmenu_edit();
-            f.Show();
+            
         }
 
         private void logout_Click(object sender, EventArgs e)
@@ -45,8 +41,6 @@ namespace quanlicafe
             if(MessageBox.Show("Do you really want to log out? ","Log out",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 this.Close();
-                log_in.Login f = new log_in.Login();
-                f.Show();
             }
         }
 
@@ -82,7 +76,15 @@ namespace quanlicafe
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //Nút quản lý Menu
+            this.Hide();
+            fmenu_edit f = new fmenu_edit();
+            f.FormClosed += form_close;
+            f.Show();
+        }
+
+        private void form_close(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
         }
 
         private void homebutton_Click(object sender, EventArgs e)
@@ -94,7 +96,20 @@ namespace quanlicafe
 
         private void employee_Click(object sender, EventArgs e)
         {
-            //Nút quản lý nhân viên
+            if(Program.chucdanh == false)
+            {
+                MessageBox.Show("Bạn không có quyền để thực hành hành động này");
+            }
+        }
+
+        private void customer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

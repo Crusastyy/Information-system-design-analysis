@@ -135,6 +135,7 @@
             this.label2.Size = new System.Drawing.Size(158, 39);
             this.label2.TabIndex = 9;
             this.label2.Text = "label1x12";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // employee
             // 
@@ -174,6 +175,7 @@
             this.customer.TabIndex = 12;
             this.customer.Text = "Customer";
             this.customer.UseVisualStyleBackColor = false;
+            this.customer.Click += new System.EventHandler(this.customer_Click);
             // 
             // label4
             // 
@@ -293,7 +295,7 @@
             this.label8.ForeColor = System.Drawing.Color.Teal;
             this.label8.Location = new System.Drawing.Point(161, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(240, 61);
+            this.label8.Size = new System.Drawing.Size(232, 70);
             this.label8.TabIndex = 23;
             this.label8.Text = "COFFEE";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -306,7 +308,7 @@
             this.label9.ForeColor = System.Drawing.Color.Teal;
             this.label9.Location = new System.Drawing.Point(280, 103);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 27);
+            this.label9.Size = new System.Drawing.Size(70, 31);
             this.label9.TabIndex = 24;
             this.label9.Text = "AND";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -319,7 +321,7 @@
             this.label10.ForeColor = System.Drawing.Color.Teal;
             this.label10.Location = new System.Drawing.Point(291, 156);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(129, 61);
+            this.label10.Size = new System.Drawing.Size(138, 70);
             this.label10.TabIndex = 25;
             this.label10.Text = "TEA";
             // 
