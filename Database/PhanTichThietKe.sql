@@ -59,7 +59,7 @@ create table HoaDon
 	MaHD int identity(1,1) not null primary key,
 	NgHD date not null,
 	ThoiGianHD time(7) not null,
-	MaKh int default(null),
+	MaKh int default(-1),
 	TriGia int not null default(0),
 	MaNV int not null,
 
@@ -87,6 +87,10 @@ insert into KhachHang (HoTen, NgaySinh, SDT, GioiTinh) values (N'Bành Phúc Th�
 insert into NhanVien (HoTen, SDT, NgaySinh, GioiTinh, email, ChucDanh) values (N'Nguyễn Văn A', '0767728905', '2000-02-17', 1, '18521425@gm.uit.edu.vn', 0)
 insert into TaiKhoanNV values ((select @@IDENTITY ),'nguyenvana','c4ca4238a0b923820dcc509a6f75849b');
 insert into KhachHang (HoTen, NgaySinh, SDT, GioiTinh) values (N'Nguyễn Văn A', '2000-02-17', '0767728905', 1)
+
+insert into NhanVien (HoTen, SDT, NgaySinh, GioiTinh, email, ChucDanh) values (N'Đào Thị Thu Hiền', '0902274475', '2000-03-23', 0, '18520759@gm.uit.edu.vn', 0)
+insert into TaiKhoanNV values ((select @@IDENTITY ),'18520759','c4ca4238a0b923820dcc509a6f75849b');
+insert into KhachHang (HoTen, NgaySinh, SDT, GioiTinh) values (N'Hoàng Thủy Tiên', '2000-02-02', '0909123456', 0)
 
 /* vi du them loai san pham */
 

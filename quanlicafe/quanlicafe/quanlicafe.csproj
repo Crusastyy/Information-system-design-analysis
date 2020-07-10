@@ -87,6 +87,42 @@
     <Compile Include="fprofile.Designer.cs">
       <DependentUpon>fprofile.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmadd_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmadd_customer.Designer.cs">
+      <DependentUpon>frmadd_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmadd_emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmadd_emp.Designer.cs">
+      <DependentUpon>frmadd_emp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcustomer.Designer.cs">
+      <DependentUpon>frmcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmedit_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmedit_customer.Designer.cs">
+      <DependentUpon>frmedit_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmedit_emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmedit_emp.Designer.cs">
+      <DependentUpon>frmedit_emp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmemp.Designer.cs">
+      <DependentUpon>frmemp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +137,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report.Designer.cs">
+      <DependentUpon>report.cs</DependentUpon>
+    </Compile>
     <Compile Include="thanhtoan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +167,24 @@
     <EmbeddedResource Include="fprofile.resx">
       <DependentUpon>fprofile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmadd_customer.resx">
+      <DependentUpon>frmadd_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmadd_emp.resx">
+      <DependentUpon>frmadd_emp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcustomer.resx">
+      <DependentUpon>frmcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmedit_customer.resx">
+      <DependentUpon>frmedit_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmedit_emp.resx">
+      <DependentUpon>frmedit_emp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmemp.resx">
+      <DependentUpon>frmemp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +201,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="report.resx">
+      <DependentUpon>report.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="thanhtoan.resx">
       <DependentUpon>thanhtoan.cs</DependentUpon>
     </EmbeddedResource>

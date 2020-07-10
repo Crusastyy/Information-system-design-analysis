@@ -56,6 +56,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.panel4.Controls.Add(this.label1);
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -78,6 +79,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.pictureBox5);
             this.panel2.Controls.Add(this.pictureBox1);
@@ -123,6 +125,7 @@
             // panel5
             // 
             this.panel5.AutoScroll = true;
+            this.panel5.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

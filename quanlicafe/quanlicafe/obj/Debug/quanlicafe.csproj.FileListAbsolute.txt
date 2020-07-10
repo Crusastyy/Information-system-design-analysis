@@ -34,3 +34,10 @@ C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\o
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.thanhtoan.resources
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\itextsharp.dll
 C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\bin\Debug\itextsharp.xml
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.report.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.frmemp.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.frmadd_customer.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.frmadd_emp.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.frmcustomer.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.frmedit_customer.resources
+C:\Users\HOME\Desktop\Information-system-design-analysis\quanlicafe\quanlicafe\obj\Debug\quanlicafe.frmedit_emp.resources

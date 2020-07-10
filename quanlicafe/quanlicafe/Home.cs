@@ -46,7 +46,16 @@ namespace quanlicafe
 
         private void button4_Click(object sender, EventArgs e)
         {
+            report asd = new report();
+            this.Hide();
+            asd.FormClosed += close;
+            asd.Show();
             //Nút Report
+        }
+
+        private void close(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -100,11 +109,24 @@ namespace quanlicafe
             {
                 MessageBox.Show("Bạn không có quyền để thực hành hành động này");
             }
+            else
+            {
+                frmemp asd = new frmemp();
+                asd.Show();
+                asd.FormClosed += aaaaa;
+                this.Hide();
+            }
+        }
+
+        private void aaaaa(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
         }
 
         private void customer_Click(object sender, EventArgs e)
         {
-
+            frmcustomer f = new frmcustomer();
+            f.ShowDialog();
         }
 
         private void label2_Click(object sender, EventArgs e)

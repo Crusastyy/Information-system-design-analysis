@@ -94,7 +94,7 @@
             this.payment.Name = "payment";
             this.payment.Size = new System.Drawing.Size(170, 43);
             this.payment.TabIndex = 2;
-            this.payment.Text = "Payment";
+            this.payment.Text = "Order";
             this.payment.UseVisualStyleBackColor = false;
             this.payment.Click += new System.EventHandler(this.homebutton_Click);
             // 
